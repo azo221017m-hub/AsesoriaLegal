@@ -1,49 +1,6 @@
 /* =============================================
-   ASESORIA LEGAL – Premium Landing Page CSS
-   Design: Elegant, Minimalist, Legal Brand 2026
+   ASESORIA LEGAL – App Component Styles
    ============================================= */
-
-/* ---------- Google Fonts Import ---------- */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Raleway:wght@300;400;500;600&display=swap');
-
-/* ---------- CSS Custom Properties ---------- */
-:root {
-  --navy:       #0f2244;
-  --navy-light: #1a3460;
-  --gold:       #c9a84c;
-  --gold-light: #e2c97e;
-  --white:      #ffffff;
-  --off-white:  #f8f7f4;
-  --gray-light: #e8e6e1;
-  --gray:       #9a9590;
-  --text-dark:  #1e1e1e;
-  --text-mid:   #3d3d3d;
-
-  --font-serif: 'Playfair Display', Georgia, serif;
-  --font-sans:  'Raleway', 'Helvetica Neue', sans-serif;
-
-  --transition: 0.35s ease;
-  --shadow-sm:  0 2px 12px rgba(0,0,0,.08);
-  --shadow-md:  0 6px 30px rgba(15,34,68,.12);
-  --shadow-lg:  0 16px 60px rgba(15,34,68,.18);
-}
-
-/* ---------- Reset ---------- */
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-html { scroll-behavior: smooth; font-size: 16px; }
-
-body {
-  font-family: var(--font-sans);
-  color: var(--text-dark);
-  background: var(--white);
-  line-height: 1.7;
-  overflow-x: hidden;
-}
-
-img { max-width: 100%; display: block; }
-a  { text-decoration: none; color: inherit; }
-ul { list-style: none; }
 
 /* ---------- Utility ---------- */
 .container {
@@ -326,7 +283,7 @@ ul { list-style: none; }
   z-index: -1;
 }
 
-/* Photo placeholder – replaced by real image */
+/* Photo placeholder */
 .photo-placeholder {
   width: 100%;
   aspect-ratio: 3 / 4;
@@ -712,6 +669,27 @@ ul { list-style: none; }
 .fade-up:nth-child(2) { transition-delay: .1s; }
 .fade-up:nth-child(3) { transition-delay: .2s; }
 .fade-up:nth-child(4) { transition-delay: .3s; }
+
+/* ---------- Form Alert ---------- */
+.form-alert {
+  padding: .85rem 1.25rem;
+  border-radius: 2px;
+  font-size: .88rem;
+  font-weight: 500;
+  margin-bottom: .5rem;
+}
+
+.form-alert--success {
+  background: rgba(37,211,102,.12);
+  border: 1px solid #25d366;
+  color: #1a7d45;
+}
+
+.form-alert--error {
+  background: rgba(211,37,37,.1);
+  border: 1px solid #d32525;
+  color: #8b0000;
+}
 
 /* ---------- Responsive ---------- */
 @media (max-width: 1024px) {
