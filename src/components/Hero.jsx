@@ -9,7 +9,7 @@ export default function Hero() {
             <p className="hero-eyebrow">Asesoría Jurídica Profesional · México 2026</p>
 
             <h1 className="hero-name" id="hero-heading">
-              Lic. Valeria<br /><em>Montoya</em>
+              Lic. Alison<br /><em>Ortíz</em>
             </h1>
 
             <p className="hero-title">Profesional del Derecho</p>
@@ -33,7 +33,7 @@ export default function Hero() {
           {/* Professional photo */}
           <div className="hero-photo-wrap">
             <div className="hero-photo-frame">
-              <div className="photo-placeholder" role="img" aria-label="Foto profesional – Lic. Valeria Montoya">
+              <div className="photo-placeholder" role="img" aria-label="Foto profesional – Lic. Alison Ortíz">
                 <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" strokeWidth="1.2" aria-hidden="true">
                   <circle cx="32" cy="22" r="12" />
                   <path d="M8 56c0-13.255 10.745-24 24-24s24 10.745 24 24" />
