@@ -13,7 +13,7 @@ export default function Perfil() {
             <div className="divider"></div>
 
             <p className="fade-up">
-              Soy Valeria Montoya, licenciada en Derecho con formación sólida en las ramas del derecho familiar y civil. Mi práctica profesional está orientada a brindar soluciones jurídicas claras, honestas y adaptadas a cada persona, porque entiendo que detrás de cada caso hay una historia que merece atención genuina.
+              Soy Alison Ortíz, licenciada en Derecho con formación sólida en las ramas del derecho familiar y civil. Mi práctica profesional está orientada a brindar soluciones jurídicas claras, honestas y adaptadas a cada persona, porque entiendo que detrás de cada caso hay una historia que merece atención genuina.
             </p>
             <p className="fade-up">
               Me mantengo en constante actualización a través de diplomados, certificaciones y análisis de jurisprudencia vigente, lo que me permite ofrecer asesoría de alto nivel con base normativa actualizada al marco legal mexicano de 2026.
