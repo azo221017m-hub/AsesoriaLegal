@@ -8,24 +8,24 @@
 
 /* ---------- CSS Custom Properties ---------- */
 :root {
-  --navy:       #0f2244;
-  --navy-light: #1a3460;
-  --gold:       #c9a84c;
-  --gold-light: #e2c97e;
-  --white:      #ffffff;
-  --off-white:  #f8f7f4;
-  --gray-light: #e8e6e1;
-  --gray:       #9a9590;
-  --text-dark:  #1e1e1e;
-  --text-mid:   #3d3d3d;
+  --navy:       #0F172A;
+  --navy-light: #1E293B;
+  --gold:       #C6A96B;
+  --gold-light: #D4BD8A;
+  --white:      #F8FAFC;
+  --off-white:  #1E293B;
+  --gray-light: #334155;
+  --gray:       #CBD5E1;
+  --text-dark:  #F8FAFC;
+  --text-mid:   #CBD5E1;
 
   --font-serif: 'Playfair Display', Georgia, serif;
   --font-sans:  'Raleway', 'Helvetica Neue', sans-serif;
 
   --transition: 0.35s ease;
-  --shadow-sm:  0 2px 12px rgba(0,0,0,.08);
-  --shadow-md:  0 6px 30px rgba(15,34,68,.12);
-  --shadow-lg:  0 16px 60px rgba(15,34,68,.18);
+  --shadow-sm:  0 2px 12px rgba(0,0,0,.18);
+  --shadow-md:  0 6px 30px rgba(0,0,0,.22);
+  --shadow-lg:  0 16px 60px rgba(0,0,0,.3);
 }
 
 /* ---------- Reset ---------- */
@@ -35,8 +35,8 @@ html { scroll-behavior: smooth; font-size: 16px; }
 
 body {
   font-family: var(--font-sans);
-  color: var(--text-dark);
-  background: var(--white);
+  color: var(--white);
+  background: var(--navy);
   line-height: 1.7;
   overflow-x: hidden;
 }
