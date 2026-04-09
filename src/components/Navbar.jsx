@@ -18,7 +18,7 @@ export default function Navbar() {
   return (
     <nav id="navbar" aria-label="Navegación principal">
       <div className="container">
-        <a href="#hero" className="nav-brand">V. <span>Montoya</span></a>
+        <a href="#hero" className="nav-brand">A. <span>Ortíz</span></a>
 
         <button
           className="nav-toggle"
